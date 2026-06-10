@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:untitled-ontology-25="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_A54">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_128"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_AMOLED_67_1080_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Exynos_1380"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_0"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP67"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Samsung</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Galaxy A54</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1400</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Xiaomi_Redmi_Note_12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioMono"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_13MP_Estandar"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_48MP_Principal"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_6_128"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_DynamicAMOLED_69_1440_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Helio_G99"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_4G_Plus"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#eSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Xiaomi</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Redmi Note 12</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">250</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#TipoSIM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Tipo de SIM</rdfs:label>
+    <rdfs:label xml:lang="en">SIM Type</rdfs:label>
+    <rdfs:label xml:lang="pt">Tipo de SIM</rdfs:label>
+    <rdfs:comment xml:lang="es">Formato de tarjeta SIM utilizada por el dispositivo para identificarse en la red móvil</rdfs:comment>
+    <rdfs:comment xml:lang="en">SIM card format used by the device to identify itself on the mobile network</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Formato do cartão SIM usado pelo dispositivo para se identificar na rede móvel</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4000">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">4000</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CPU_Snapdragon_680_Octa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:marcaCPU>Qualcomm</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Snapdragon 680 Octa</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-25:numeroNucleos>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:esProcesadorDe rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_A05_DBpedia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_8Gen3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">3.3</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Qualcomm</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Snapdragon 8 Gen 3</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_4_128">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">4</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">true</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">128</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_S24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_12MP_iPhone"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_12_512"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_AMOLED_67_1080_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Exynos_2200"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_3"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi7"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G_Advanced"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP68"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2024</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Samsung</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Galaxy S24</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1100</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Xiaomi_13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4500"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_DynamicAMOLED_69_1440_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_8Gen2"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP67"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#eSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Xiaomi</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>13</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Memoria</rdfs:label>
+    <rdfs:label xml:lang="en">Memory</rdfs:label>
+    <rdfs:label xml:lang="pt">Memória</rdfs:label>
+    <rdfs:comment xml:lang="es">Sistema de almacenamiento de datos del dispositivo móvil</rdfs:comment>
+    <rdfs:comment xml:lang="en">Data storage system of the mobile device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Sistema de armazenamento de dados do dispositivo móvel</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Batería</rdfs:label>
+    <rdfs:label xml:lang="en">Battery</rdfs:label>
+    <rdfs:label xml:lang="pt">Bateria</rdfs:label>
+    <rdfs:comment xml:lang="es">Fuente de energía recargable que alimenta el dispositivo móvil</rdfs:comment>
+    <rdfs:comment xml:lang="en">Rechargeable energy source that powers the mobile device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Fonte de energia recarregável que alimenta o dispositivo móvel</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Vivo_V27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioMono"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4500"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_64MP_AltaResolucion"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_128"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_LCD_65_1080_60"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Dimensity_9200"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Vivo</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>V27</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#marcaCelular">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">marca del celular</rdfs:label>
+    <rdfs:label xml:lang="en">phone brand</rdfs:label>
+    <rdfs:label xml:lang="pt">marca do celular</rdfs:label>
+    <rdfs:comment xml:lang="es">Fabricante o marca comercial del dispositivo móvil</rdfs:comment>
+    <rdfs:comment xml:lang="en">Manufacturer or commercial brand of the mobile device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Fabricante ou marca comercial do dispositivo móvel</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#cargaInalambrica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">carga inalámbrica</rdfs:label>
+    <rdfs:label xml:lang="en">wireless charging</rdfs:label>
+    <rdfs:label xml:lang="pt">carregamento sem fio</rdfs:label>
+    <rdfs:comment xml:lang="es">Indica si el dispositivo soporta carga inalámbrica</rdfs:comment>
+    <rdfs:comment xml:lang="en">Indicates if the device supports wireless charging</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Indica se o dispositivo suporta carregamento sem fio</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#resolucionFrontal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">resolución frontal</rdfs:label>
+    <rdfs:label xml:lang="en">front resolution</rdfs:label>
+    <rdfs:label xml:lang="pt">resolução frontal</rdfs:label>
+    <rdfs:comment xml:lang="es">Resolución de la cámara frontal en megapíxeles</rdfs:comment>
+    <rdfs:comment xml:lang="en">Front camera resolution in megapixels</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Resolução da câmera frontal em megapixels</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneResistencia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene resistencia</rdfs:label>
+    <rdfs:label xml:lang="en">has resistance</rdfs:label>
+    <rdfs:label xml:lang="pt">tem resistência</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su certificación de resistencia</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its resistance certification</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com sua certificação de resistência</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_6_256">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">6</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">true</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">256</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneProcesador">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene procesador</rdfs:label>
+    <rdfs:label xml:lang="en">has processor</rdfs:label>
+    <rdfs:label xml:lang="pt">tem processador</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su procesador</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its processor</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com seu processador</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Oppo_Reno_10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4800"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_64MP_AltaResolucion"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_12_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_DynamicAMOLED_69_1440_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Dimensity_9200"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Oppo</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Reno 10</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#OnePlus_11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_16MP_Selfie"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_16_512"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_AMOLED_67_1080_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_8Gen2"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_3"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi7"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G_Advanced"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP64"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>OnePlus</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>11</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Dimensity_8100">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">2.85</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>MediaTek</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Dimensity 8100</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SistemaOperativo"/>
+    <untitled-ontology-25:nombreSO>Android</untitled-ontology-25:nombreSO>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Oppo_Find_X5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4800"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_12_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_AMOLED_67_1080_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_888"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP68"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2022</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Oppo</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Find X5</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Cámara Frontal</rdfs:label>
+    <rdfs:label xml:lang="en">Front Camera</rdfs:label>
+    <rdfs:label xml:lang="pt">Câmera Frontal</rdfs:label>
+    <rdfs:comment xml:lang="es">Cámara ubicada en la parte delantera del dispositivo, usada para selfies y videollamadas</rdfs:comment>
+    <rdfs:comment xml:lang="en">Camera located on the front of the device, used for selfies and video calls</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Câmera localizada na parte frontal do dispositivo, usada para selfies e videochamadas</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Camara"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Huawei_Nova_11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4500"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_LCD_65_1080_60"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_888"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_0"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#NFC"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_4G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP64"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorFacial"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorProximidad"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#HarmonyOS"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Huawei</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Nova 11</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esMemoriaDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es memoria de</rdfs:label>
+    <rdfs:label xml:lang="en">is memory of</rdfs:label>
+    <rdfs:label xml:lang="pt">é memória de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneMemoria</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasMemory</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temMemória</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneMemoria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#OnePlus_Nord_3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_16MP_Selfie"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_16_512"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_AMOLED_67_1080_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Dimensity_9200"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>OnePlus</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Nord 3</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_12_256">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">12</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">false</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">256</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#iPhone_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_12MP_iPhone"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_12MP_Estandar"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_6_128"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_OLED_62_1080_90"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Apple_A15_Bionic"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_0"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#NFC"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP68"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorFacial"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#iOS"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#eSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2022</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Apple</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>14</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#iPhone_15_Pro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4300"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_12MP_iPhone"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_48MP_Principal"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_12_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_OLED_68_1440_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Apple_A17_Pro"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_3"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#NFC"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP68"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorFacial"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#iOS"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#eSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Apple</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>15 Pro</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#resolucionPantalla">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">resolución de pantalla</rdfs:label>
+    <rdfs:label xml:lang="en">screen resolution</rdfs:label>
+    <rdfs:label xml:lang="pt">resolução da tela</rdfs:label>
+    <rdfs:comment xml:lang="es">Resolución de la pantalla en píxeles</rdfs:comment>
+    <rdfs:comment xml:lang="en">Screen resolution in pixels</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Resolução da tela em pixels</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Exynos_1380">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">2.4</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Samsung</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Exynos 1380</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6">
+  <rdfs:label xml:lang="es">WiFi 6</rdfs:label>
+  <rdfs:label xml:lang="en">WiFi 6</rdfs:label>
+  <rdfs:label xml:lang="pt">WiFi 6</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+    <untitled-ontology-25:tipoRedInalambrica>WiFi 6</untitled-ontology-25:tipoRedInalambrica>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esProcesadorDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es procesador de</rdfs:label>
+    <rdfs:label xml:lang="en">is processor of</rdfs:label>
+    <rdfs:label xml:lang="pt">é processador de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneProcesador</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasProcessor</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temProcessador</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneProcesador"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_12MP_Estandar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <untitled-ontology-25:numeroCamaras rdf:datatype="xsd:integer">1</untitled-ontology-25:numeroCamaras>
+    <untitled-ontology-25:resolucionPrincipal rdf:datatype="xsd:integer">12</untitled-ontology-25:resolucionPrincipal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#nombreSO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">nombre del SO</rdfs:label>
+    <rdfs:label xml:lang="en">OS name</rdfs:label>
+    <rdfs:label xml:lang="pt">nome do SO</rdfs:label>
+    <rdfs:comment xml:lang="es">Nombre del sistema operativo instalado</rdfs:comment>
+    <rdfs:comment xml:lang="en">Name of the installed operating system</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Nome do sistema operacional instalado</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SistemaOperativo"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tasaRefresco">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">tasa de refresco</rdfs:label>
+    <rdfs:label xml:lang="en">refresh rate</rdfs:label>
+    <rdfs:label xml:lang="pt">taxa de atualização</rdfs:label>
+    <rdfs:comment xml:lang="es">Frecuencia de actualización de la pantalla en Hz</rdfs:comment>
+    <rdfs:comment xml:lang="en">Screen refresh frequency in Hz</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Frequência de atualização da tela em Hz</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#numeroCamaras">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">número de cámaras</rdfs:label>
+    <rdfs:label xml:lang="en">number of cameras</rdfs:label>
+    <rdfs:label xml:lang="pt">número de câmeras</rdfs:label>
+    <rdfs:comment xml:lang="es">Cantidad de lentes en el sistema de cámara</rdfs:comment>
+    <rdfs:comment xml:lang="en">Number of lenses in the camera system</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Quantidade de lentes no sistema de câmera</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_OLED_68_1440_120">
+  <rdfs:label xml:lang="es">OLED</rdfs:label>
+  <rdfs:label xml:lang="en">OLED</rdfs:label>
+  <rdfs:label xml:lang="pt">OLED</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <untitled-ontology-25:resolucionPantalla>1440x3200</untitled-ontology-25:resolucionPantalla>
+    <untitled-ontology-25:tamanoPantalla rdf:datatype="xsd:integer">68</untitled-ontology-25:tamanoPantalla>
+    <untitled-ontology-25:tasaRefresco rdf:datatype="xsd:integer">120</untitled-ontology-25:tasaRefresco>
+    <untitled-ontology-25:tipoPantalla>OLED</untitled-ontology-25:tipoPantalla>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_13MP_Estandar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+    <untitled-ontology-25:resolucionFrontal rdf:datatype="xsd:integer">13</untitled-ontology-25:resolucionFrontal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Cámara Trasera</rdfs:label>
+    <rdfs:label xml:lang="en">Rear Camera</rdfs:label>
+    <rdfs:label xml:lang="pt">Câmera Traseira</rdfs:label>
+    <rdfs:comment xml:lang="es">Cámara principal ubicada en la parte posterior del dispositivo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Main camera located on the back of the device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Câmera principal localizada na parte traseira do dispositivo</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Camara"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#modeloCPU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">modelo del procesador</rdfs:label>
+    <rdfs:label xml:lang="en">processor model</rdfs:label>
+    <rdfs:label xml:lang="pt">modelo do processador</rdfs:label>
+    <rdfs:comment xml:lang="es">Nombre específico del modelo del procesador</rdfs:comment>
+    <rdfs:comment xml:lang="en">Specific name of the processor model</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Nome específico do modelo do processador</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP64">
+  <rdfs:label xml:lang="es">Protección contra polvo (limitada) y salpicaduras de agua desde cualquier dirección</rdfs:label>
+  <rdfs:label xml:lang="en">Limited dust protection and water splash from any direction</rdfs:label>
+  <rdfs:label xml:lang="pt">Proteção limitada contra poeira e respingos de água de qualquer direção</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <untitled-ontology-25:certificacion>IP64</untitled-ontology-25:certificacion>
+    <untitled-ontology-25:nombreResistencia>Protección contra polvo (limitada) y salpicaduras de agua desde cualquier dirección</untitled-ontology-25:nombreResistencia>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneCamaraFrontal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene cámara frontal</rdfs:label>
+    <rdfs:label xml:lang="en">has front camera</rdfs:label>
+    <rdfs:label xml:lang="pt">tem câmera frontal</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su cámara frontal</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its front camera</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com sua câmera frontal</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tipoPantalla">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">tipo de pantalla</rdfs:label>
+    <rdfs:label xml:lang="en">screen type</rdfs:label>
+    <rdfs:label xml:lang="pt">tipo de tela</rdfs:label>
+    <rdfs:comment xml:lang="es">Tecnología del panel de la pantalla (ej. AMOLED, LCD)</rdfs:comment>
+    <rdfs:comment xml:lang="en">Screen panel technology (e.g. AMOLED, LCD)</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Tecnologia do painel da tela (ex. AMOLED, LCD)</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Celular</rdfs:label>
+    <rdfs:label xml:lang="en">Mobile Phone</rdfs:label>
+    <rdfs:label xml:lang="pt">Celular</rdfs:label>
+    <rdfs:comment xml:lang="es">Dispositivo electrónico portátil de comunicación inalámbrica con capacidades de computación</rdfs:comment>
+    <rdfs:comment xml:lang="en">Portable electronic wireless communication device with computing capabilities</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Dispositivo eletrônico portátil de comunicação sem fio com capacidades computacionais</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#certificacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">certificación</rdfs:label>
+    <rdfs:label xml:lang="en">certification</rdfs:label>
+    <rdfs:label xml:lang="pt">certificação</rdfs:label>
+    <rdfs:comment xml:lang="es">Certificación de resistencia al agua y polvo (ej. IP68)</rdfs:comment>
+    <rdfs:comment xml:lang="en">Water and dust resistance certification (e.g. IP68)</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Certificação de resistência à água e poeira (ex. IP68)</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_6000">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">6000</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Motorola_G73">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_16MP_Selfie"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_128"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_OLED_62_1080_90"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Dimensity_8100"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Motorola</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>G73</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_3000">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">3000</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneSistemaOperativo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene sistema operativo</rdfs:label>
+    <rdfs:label xml:lang="en">has operating system</rdfs:label>
+    <rdfs:label xml:lang="pt">tem sistema operacional</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su sistema operativo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its operating system</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com seu sistema operacional</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SistemaOperativo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Realme_GT_5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5200"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_16MP_Selfie"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_16_1024"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_AMOLED_67_1080_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_8Gen3"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi7"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G_Standalone"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Realme</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>GT 5</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#marcaCPU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">marca del procesador</rdfs:label>
+    <rdfs:label xml:lang="en">processor brand</rdfs:label>
+    <rdfs:label xml:lang="pt">marca do processador</rdfs:label>
+    <rdfs:comment xml:lang="es">Fabricante del procesador (ej. Qualcomm, Apple, MediaTek)</rdfs:comment>
+    <rdfs:comment xml:lang="en">Processor manufacturer (e.g. Qualcomm, Apple, MediaTek)</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Fabricante do processador (ex. Qualcomm, Apple, MediaTek)</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene sensor</rdfs:label>
+    <rdfs:label xml:lang="en">has sensor</rdfs:label>
+    <rdfs:label xml:lang="pt">tem sensor</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con sus sensores</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its sensors</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com seus sensores</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_LCD_65_1080_60">
+  <rdfs:label xml:lang="es">LCD</rdfs:label>
+  <rdfs:label xml:lang="en">LCD</rdfs:label>
+  <rdfs:label xml:lang="pt">LCD</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <untitled-ontology-25:resolucionPantalla>1080x2340</untitled-ontology-25:resolucionPantalla>
+    <untitled-ontology-25:tamanoPantalla rdf:datatype="xsd:integer">65</untitled-ontology-25:tamanoPantalla>
+    <untitled-ontology-25:tasaRefresco rdf:datatype="xsd:integer">60</untitled-ontology-25:tasaRefresco>
+    <untitled-ontology-25:tipoPantalla>LCD</untitled-ontology-25:tipoPantalla>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4300">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">4300</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5500">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">5500</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Motorola_Edge_40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4500"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_OLED_62_1080_90"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Dimensity_8100"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP68"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Motorola</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Edge 40</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneTipoSIM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene tipo de SIM</rdfs:label>
+    <rdfs:label xml:lang="en">has SIM type</rdfs:label>
+    <rdfs:label xml:lang="pt">tem tipo de SIM</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con el formato de SIM que utiliza</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to the SIM format it uses</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com o formato de SIM que utiliza</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#TipoSIM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#numeroNucleos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">número de núcleos</rdfs:label>
+    <rdfs:label xml:lang="en">number of cores</rdfs:label>
+    <rdfs:label xml:lang="pt">número de núcleos</rdfs:label>
+    <rdfs:comment xml:lang="es">Cantidad de núcleos del procesador</rdfs:comment>
+    <rdfs:comment xml:lang="en">Number of processor cores</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Quantidade de núcleos do processador</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_--MP_N2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <untitled-ontology-25:numeroCamaras rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-25:numeroCamaras>
+    <untitled-ontology-25:esCamaraTraseraDe rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_A05_DBpedia"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N73ba4414408843db8ebe0b46f9448df8">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <rdf:rest rdf:nodeID="N6865722ae9494687af94d80a12164299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Xiaomi_Redmi_Note_11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioMono"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_13MP_Estandar"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_48MP_Principal"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_DynamicAMOLED_69_1440_120"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Helio_G99"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_0"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_4G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#eSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2022</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Media</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Xiaomi</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Redmi Note 11</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_OLED_62_1080_90">
+  <rdfs:label xml:lang="es">OLED</rdfs:label>
+  <rdfs:label xml:lang="en">OLED</rdfs:label>
+  <rdfs:label xml:lang="pt">OLED</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <untitled-ontology-25:resolucionPantalla>1080x2400</untitled-ontology-25:resolucionPantalla>
+    <untitled-ontology-25:tamanoPantalla rdf:datatype="xsd:integer">62</untitled-ontology-25:tamanoPantalla>
+    <untitled-ontology-25:tasaRefresco rdf:datatype="xsd:integer">90</untitled-ontology-25:tasaRefresco>
+    <untitled-ontology-25:tipoPantalla>OLED</untitled-ontology-25:tipoPantalla>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#capacidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">capacidad</rdfs:label>
+    <rdfs:label xml:lang="en">capacity</rdfs:label>
+    <rdfs:label xml:lang="pt">capacidade</rdfs:label>
+    <rdfs:comment xml:lang="es">Capacidad de la batería en mAh</rdfs:comment>
+    <rdfs:comment xml:lang="en">Battery capacity in mAh</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Capacidade da bateria em mAh</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneBateria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene batería</rdfs:label>
+    <rdfs:label xml:lang="en">has battery</rdfs:label>
+    <rdfs:label xml:lang="pt">tem bateria</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su batería</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its battery</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com sua bateria</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#gama">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">gama</rdfs:label>
+    <rdfs:label xml:lang="en">tier</rdfs:label>
+    <rdfs:label xml:lang="pt">faixa</rdfs:label>
+    <rdfs:comment xml:lang="es">Segmento de mercado del dispositivo: alta, media o baja</rdfs:comment>
+    <rdfs:comment xml:lang="en">Market segment of the device: high, mid or low</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Segmento de mercado do dispositivo: alto, médio ou baixo</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP67">
+  <rdfs:label xml:lang="es">Resistente al agua y polvo</rdfs:label>
+  <rdfs:label xml:lang="en">Water and dust resistant</rdfs:label>
+  <rdfs:label xml:lang="pt">Resistente à água e poeira</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <untitled-ontology-25:certificacion>IP67</untitled-ontology-25:certificacion>
+    <untitled-ontology-25:nombreResistencia>Resistente al agua y polvo</untitled-ontology-25:nombreResistencia>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+    <untitled-ontology-25:tipoRedInalambrica>Bluetooth 5.3</untitled-ontology-25:tipoRedInalambrica>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#admiteMicroSD">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">admite MicroSD</rdfs:label>
+    <rdfs:label xml:lang="en">supports MicroSD</rdfs:label>
+    <rdfs:label xml:lang="pt">suporta MicroSD</rdfs:label>
+    <rdfs:comment xml:lang="es">Indica si el dispositivo acepta tarjeta de memoria externa</rdfs:comment>
+    <rdfs:comment xml:lang="en">Indicates if the device accepts external memory card</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Indica se o dispositivo aceita cartão de memória externo</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneAudio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene audio</rdfs:label>
+    <rdfs:label xml:lang="en">has audio</rdfs:label>
+    <rdfs:label xml:lang="pt">tem áudio</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su componente de audio</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its audio component</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com seu componente de áudio</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Audio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Sensor</rdfs:label>
+    <rdfs:label xml:lang="en">Sensor</rdfs:label>
+    <rdfs:label xml:lang="pt">Sensor</rdfs:label>
+    <rdfs:comment xml:lang="es">Dispositivo que detecta estímulos físicos como movimiento, luz o biometría</rdfs:comment>
+    <rdfs:comment xml:lang="en">Device that detects physical stimuli such as movement, light or biometrics</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Dispositivo que detecta estímulos físicos como movimento, luz ou biometria</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#resolucionPrincipal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">resolución principal</rdfs:label>
+    <rdfs:label xml:lang="en">main resolution</rdfs:label>
+    <rdfs:label xml:lang="pt">resolução principal</rdfs:label>
+    <rdfs:comment xml:lang="es">Resolución de la cámara principal en megapíxeles</rdfs:comment>
+    <rdfs:comment xml:lang="en">Main camera resolution in megapixels</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Resolução da câmera principal em megapixels</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneRedMovil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene red móvil</rdfs:label>
+    <rdfs:label xml:lang="en">has mobile network</rdfs:label>
+    <rdfs:label xml:lang="pt">tem rede móvel</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su tecnología de red celular</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its cellular network technology</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com sua tecnologia de rede celular</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#eSIM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#TipoSIM"/>
+  
+    <rdfs:label xml:lang="es">eSIM</rdfs:label>
+    <rdfs:label xml:lang="en">eSIM</rdfs:label>
+    <rdfs:label xml:lang="pt">eSIM</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#TipoSIM"/>
+  
+    <rdfs:label xml:lang="es">Dual SIM</rdfs:label>
+    <rdfs:label xml:lang="en">Dual SIM</rdfs:label>
+    <rdfs:label xml:lang="pt">Dual SIM</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esCamaraTraseraDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es cámara trasera de</rdfs:label>
+    <rdfs:label xml:lang="en">is rear camera of</rdfs:label>
+    <rdfs:label xml:lang="pt">é câmera traseira de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneCamaraTrasera</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasRearCamera</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temCâmeraTraseira</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneCamaraTrasera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tipoSalida">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Audio"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  
+    <rdfs:label xml:lang="es">tipo de salida</rdfs:label>
+    <rdfs:label xml:lang="en">audio output</rdfs:label>
+    <rdfs:label xml:lang="pt">tipo de saída</rdfs:label>
+  
+    <rdfs:comment xml:lang="es">Tipo de salida de audio del dispositivo (ej. estéreo, monoaural)</rdfs:comment>
+    <rdfs:comment xml:lang="en">Type of audio output of the device (e.g. stereo, mono)</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Tipo de saída de áudio do dispositivo (ex. estéreo, mono)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#cargaRapida">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">carga rápida</rdfs:label>
+    <rdfs:label xml:lang="en">fast charging</rdfs:label>
+    <rdfs:label xml:lang="pt">carregamento rápido</rdfs:label>
+    <rdfs:comment xml:lang="es">Indica si el dispositivo soporta carga rápida</rdfs:comment>
+    <rdfs:comment xml:lang="en">Indicates if the device supports fast charging</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Indica se o dispositivo suporta carregamento rápido</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Exynos_2200">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">2.8</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Samsung</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Exynos 2200</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Camara">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Cámara</rdfs:label>
+    <rdfs:label xml:lang="en">Camera</rdfs:label>
+    <rdfs:label xml:lang="pt">Câmera</rdfs:label>
+    <rdfs:comment xml:lang="es">Sistema óptico para captura de imágenes y vídeo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Optical system for capturing images and video</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Sistema óptico para captura de imagens e vídeo</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP53">
+  <rdfs:label xml:lang="es">Protección limitada contra polvo y agua</rdfs:label>
+  <rdfs:label xml:lang="en">Limited protection against dust and water</rdfs:label>
+  <rdfs:label xml:lang="pt">Proteção limitada contra poeira e água</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <untitled-ontology-25:certificacion>IP53</untitled-ontology-25:certificacion>
+    <untitled-ontology-25:nombreResistencia>Protección limitada contra polvo y agua</untitled-ontology-25:nombreResistencia>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_16_512">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">16</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">false</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">512</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneCamaraTrasera">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene cámara trasera</rdfs:label>
+    <rdfs:label xml:lang="en">has rear camera</rdfs:label>
+    <rdfs:label xml:lang="pt">tem câmera traseira</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su cámara trasera</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its rear camera</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com sua câmera traseira</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_4_64">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">4</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">true</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">64</untitled-ontology-25:almacenamientoInterno>
+    <untitled-ontology-25:esMemoriaDe rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_A05_DBpedia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Huawei_P60_Pro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4800"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_13MP_Estandar"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_12_512"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_LCD_65_1080_60"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Kirin_9000"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_4G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP68"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorFacial"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorGiroscopio"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#HarmonyOS"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#eSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Alta</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Huawei</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>P60 Pro</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Resistencia</rdfs:label>
+    <rdfs:label xml:lang="en">Resistance</rdfs:label>
+    <rdfs:label xml:lang="pt">Resistência</rdfs:label>
+    <rdfs:comment xml:lang="es">Certificación de protección contra agua y polvo del dispositivo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Water and dust protection certification of the device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Certificação de proteção contra água e poeira do dispositivo</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esCamaraFrontalDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es cámara frontal de</rdfs:label>
+    <rdfs:label xml:lang="en">is front camera of</rdfs:label>
+    <rdfs:label xml:lang="pt">é câmera frontal de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneCamaraFrontal</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasFrontCamera</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temCâmeraFrontal</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneCamaraFrontal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Apple_A17_Pro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">3.78</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Apple</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>A17 Pro</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">6</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RAM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">RAM</rdfs:label>
+    <rdfs:label xml:lang="en">RAM</rdfs:label>
+    <rdfs:label xml:lang="pt">RAM</rdfs:label>
+    <rdfs:comment xml:lang="es">Memoria de acceso aleatorio en GB</rdfs:comment>
+    <rdfs:comment xml:lang="en">Random access memory in GB</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Memória de acesso aleatório em GB</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5200">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">5200</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Vivo_Y36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <untitled-ontology-25:tieneAudio rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioMono"/>
+    <untitled-ontology-25:tieneBateria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000"/>
+    <untitled-ontology-25:tieneCamaraFrontal rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium"/>
+    <untitled-ontology-25:tieneCamaraTrasera rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium"/>
+    <untitled-ontology-25:tieneMemoria rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_256"/>
+    <untitled-ontology-25:tienePantalla rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_LCD_65_1080_60"/>
+    <untitled-ontology-25:tieneProcesador rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_778G"/>
+    <untitled-ontology-25:tieneRedInalambrica rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi6"/>
+    <untitled-ontology-25:tieneRedMovil rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G"/>
+    <untitled-ontology-25:tieneResistencia rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54"/>
+    <untitled-ontology-25:tieneSensor rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella"/>
+    <untitled-ontology-25:tieneSistemaOperativo rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Android"/>
+    <untitled-ontology-25:tieneTipoSIM rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#DualSIM"/>
+    <untitled-ontology-25:anio rdf:datatype="xsd:integer">2023</untitled-ontology-25:anio>
+    <untitled-ontology-25:gama>Baja</untitled-ontology-25:gama>
+    <untitled-ontology-25:marcaCelular>Vivo</untitled-ontology-25:marcaCelular>
+    <untitled-ontology-25:modeloCelular>Y36</untitled-ontology-25:modeloCelular>
+    <untitled-ontology-25:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">250</untitled-ontology-25:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tamanoPantalla">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">tamaño de pantalla</rdfs:label>
+    <rdfs:label xml:lang="en">screen size</rdfs:label>
+    <rdfs:label xml:lang="pt">tamanho da tela</rdfs:label>
+    <rdfs:comment xml:lang="es">Tamaño diagonal de la pantalla en pulgadas</rdfs:comment>
+    <rdfs:comment xml:lang="en">Diagonal screen size in inches</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Tamanho diagonal da tela em polegadas</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#precio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">precio</rdfs:label>
+    <rdfs:label xml:lang="en">price</rdfs:label>
+    <rdfs:label xml:lang="pt">preço</rdfs:label>
+    <rdfs:comment xml:lang="es">Precio de venta al público del dispositivo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Retail price of the device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Preço de venda ao público do dispositivo</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#modeloCelular">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">modelo del celular</rdfs:label>
+    <rdfs:label xml:lang="en">phone model</rdfs:label>
+    <rdfs:label xml:lang="pt">modelo do celular</rdfs:label>
+    <rdfs:comment xml:lang="es">Nombre comercial del modelo del dispositivo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Commercial name of the device model</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Nome comercial do modelo do dispositivo</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esAudioDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es audio de</rdfs:label>
+    <rdfs:label xml:lang="en">is audio of</rdfs:label>
+    <rdfs:label xml:lang="pt">é áudio de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneAudio</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasAudio</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temÁudio</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneAudio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_64MP_AltaResolucion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <untitled-ontology-25:numeroCamaras rdf:datatype="xsd:integer">1</untitled-ontology-25:numeroCamaras>
+    <untitled-ontology-25:resolucionPrincipal rdf:datatype="xsd:integer">64</untitled-ontology-25:resolucionPrincipal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_16MP_Selfie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+    <untitled-ontology-25:resolucionFrontal rdf:datatype="xsd:integer">16</untitled-ontology-25:resolucionFrontal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esPantallaDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es pantalla de</rdfs:label>
+    <rdfs:label xml:lang="en">is screen of</rdfs:label>
+    <rdfs:label xml:lang="pt">é tela de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tienePantalla</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasScreen</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temTela</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tienePantalla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_AMOLED_67_1080_120">
+  <rdfs:label xml:lang="es">AMOLED</rdfs:label>
+  <rdfs:label xml:lang="en">AMOLED</rdfs:label>
+  <rdfs:label xml:lang="pt">AMOLED</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <untitled-ontology-25:resolucionPantalla>1080x2400</untitled-ontology-25:resolucionPantalla>
+    <untitled-ontology-25:tamanoPantalla rdf:datatype="xsd:integer">67</untitled-ontology-25:tamanoPantalla>
+    <untitled-ontology-25:tasaRefresco rdf:datatype="xsd:integer">120</untitled-ontology-25:tasaRefresco>
+    <untitled-ontology-25:tipoPantalla>AMOLED</untitled-ontology-25:tipoPantalla>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_4G">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <untitled-ontology-25:tipoRedMovil>4G LTE</untitled-ontology-25:tipoRedMovil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#anio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">año de lanzamiento</rdfs:label>
+    <rdfs:label xml:lang="en">release year</rdfs:label>
+    <rdfs:label xml:lang="pt">ano de lançamento</rdfs:label>
+    <rdfs:comment xml:lang="es">Año en que fue lanzado el dispositivo al mercado</rdfs:comment>
+    <rdfs:comment xml:lang="en">Year the device was released to market</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Ano em que o dispositivo foi lançado no mercado</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Dimensity_9200">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">3.05</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>MediaTek</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Dimensity 9200</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP68">
+  <rdfs:label xml:lang="es">Alta resistencia al agua y polvo</rdfs:label>
+  <rdfs:label xml:lang="en">High water and dust resistance</rdfs:label>
+  <rdfs:label xml:lang="pt">Alta resistência à água e poeira</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <untitled-ontology-25:certificacion>IP68</untitled-ontology-25:certificacion>
+    <untitled-ontology-25:nombreResistencia>Alta resistencia al agua y polvo</untitled-ontology-25:nombreResistencia>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneMemoria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene memoria</rdfs:label>
+    <rdfs:label xml:lang="en">has memory</rdfs:label>
+    <rdfs:label xml:lang="pt">tem memória</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su sistema de memoria</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its memory system</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com seu sistema de memória</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_48MP_Principal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <untitled-ontology-25:numeroCamaras rdf:datatype="xsd:integer">1</untitled-ontology-25:numeroCamaras>
+    <untitled-ontology-25:resolucionPrincipal rdf:datatype="xsd:integer">48</untitled-ontology-25:resolucionPrincipal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G_Standalone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <untitled-ontology-25:tipoRedMovil>5G SA</untitled-ontology-25:tipoRedMovil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioMono">
+  <rdfs:label xml:lang="es">Mono</rdfs:label>
+  <rdfs:label xml:lang="en">Mono</rdfs:label>
+  <rdfs:label xml:lang="pt">Mono</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Audio"/>
+    <untitled-ontology-25:tipoSalida>Mono</untitled-ontology-25:tipoSalida>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N067e2bd8a84e46c6ab684a6122e431c2">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Audio"/>
+    <rdf:rest rdf:nodeID="N8ea2e712340643fa92ca16eee271b3a7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Audio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Audio</rdfs:label>
+    <rdfs:label xml:lang="en">Audio</rdfs:label>
+    <rdfs:label xml:lang="pt">Áudio</rdfs:label>
+    <rdfs:comment xml:lang="es">Componente que gestiona las capacidades de sonido del dispositivo móvil</rdfs:comment>
+    <rdfs:comment xml:lang="en">Component that manages the sound capabilities of the mobile device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Componente que gerencia as capacidades de som do dispositivo móvel</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esRedInalambricaDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es red inalámbrica de</rdfs:label>
+    <rdfs:label xml:lang="en">is wireless network of</rdfs:label>
+    <rdfs:label xml:lang="pt">é rede sem fio de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneRedInalambrica</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasWirelessNetwork</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temRedeSemFio</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneRedInalambrica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="xsd:integer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_8Gen2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">3.3</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Qualcomm</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Snapdragon 8 Gen 2</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Kirin_9000">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">3.13</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Huawei</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Kirin 9000</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IP54">
+  <rdfs:label xml:lang="es">Protección contra polvo y salpicaduras</rdfs:label>
+  <rdfs:label xml:lang="en">Protection against dust and splashes</rdfs:label>
+  <rdfs:label xml:lang="pt">Proteção contra poeira e respingos</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <untitled-ontology-25:certificacion>IP54</untitled-ontology-25:certificacion>
+    <untitled-ontology-25:nombreResistencia>Protección contra polvo y salpicaduras</untitled-ontology-25:nombreResistencia>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Apple_A15_Bionic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">3.2</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Apple</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>A15 Bionic</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">6</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#almacenamientoInterno">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">almacenamiento interno</rdfs:label>
+    <rdfs:label xml:lang="en">internal storage</rdfs:label>
+    <rdfs:label xml:lang="pt">armazenamento interno</rdfs:label>
+    <rdfs:comment xml:lang="es">Capacidad de almacenamiento interno en GB</rdfs:comment>
+    <rdfs:comment xml:lang="en">Internal storage capacity in GB</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Capacidade de armazenamento interno em GB</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esSensorDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es sensor de</rdfs:label>
+    <rdfs:label xml:lang="en">is sensor of</rdfs:label>
+    <rdfs:label xml:lang="pt">é sensor de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneSensor</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasSensor</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temSensor</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneSensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bluetooth_5_0">
+  <rdfs:label xml:lang="es">Bluetooth 5.0</rdfs:label>
+  <rdfs:label xml:lang="en">Bluetooth 5.0</rdfs:label>
+  <rdfs:label xml:lang="pt">Bluetooth 5.0</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+    <untitled-ontology-25:tipoRedInalambrica>Bluetooth 5.0</untitled-ontology-25:tipoRedInalambrica>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#WiFi7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+    <untitled-ontology-25:tipoRedInalambrica>WiFi 7</untitled-ontology-25:tipoRedInalambrica>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Red Móvil</rdfs:label>
+    <rdfs:label xml:lang="en">Mobile Network</rdfs:label>
+    <rdfs:label xml:lang="pt">Rede Móvel</rdfs:label>
+    <rdfs:comment xml:lang="es">Tecnología de conectividad celular como 4G LTE y 5G</rdfs:comment>
+    <rdfs:comment xml:lang="en">Cellular connectivity technology such as 4G LTE and 5G</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Tecnologia de conectividade celular como 4G LTE e 5G</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tipoSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  
+    <rdfs:label xml:lang="es">tipo de sensor</rdfs:label>
+    <rdfs:label xml:lang="en">sensor type</rdfs:label>
+    <rdfs:label xml:lang="pt">tipo de sensor</rdfs:label>
+  
+    <rdfs:comment xml:lang="es">Tipo de sensor incluido en el dispositivo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Type of sensor included in the device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Tipo de sensor incluído no dispositivo</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Procesador</rdfs:label>
+    <rdfs:label xml:lang="en">Processor</rdfs:label>
+    <rdfs:label xml:lang="pt">Processador</rdfs:label>
+    <rdfs:comment xml:lang="es">Unidad central de procesamiento que ejecuta las instrucciones del sistema operativo y aplicaciones</rdfs:comment>
+    <rdfs:comment xml:lang="en">Central processing unit that executes operating system and application instructions</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Unidade central de processamento que executa as instruções do sistema operacional e aplicativos</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_200MP_Ultra">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <untitled-ontology-25:numeroCamaras rdf:datatype="xsd:integer">1</untitled-ontology-25:numeroCamaras>
+    <untitled-ontology-25:resolucionPrincipal rdf:datatype="xsd:integer">200</untitled-ontology-25:resolucionPrincipal>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8ea2e712340643fa92ca16eee271b3a7">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <rdf:rest rdf:nodeID="N430e76f279404114af5792ce980ad8e3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esRedMovilDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es red móvil de</rdfs:label>
+    <rdfs:label xml:lang="en">is mobile network of</rdfs:label>
+    <rdfs:label xml:lang="pt">é rede móvel de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneRedMovil</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasMobileNetwork</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temRedeMóvel</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneRedMovil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tipoRedMovil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  
+    <rdfs:label xml:lang="es">tipo de red móvil</rdfs:label>
+    <rdfs:label xml:lang="en">mobile network type</rdfs:label>
+    <rdfs:label xml:lang="pt">tipo de rede móvel</rdfs:label>
+  
+    <rdfs:comment xml:lang="es">Generación de red móvil soportada (ej. 4G, 5G)</rdfs:comment>
+    <rdfs:comment xml:lang="en">Supported mobile network generation (e.g. 4G, 5G)</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Geração de rede móvel suportada (ex. 4G, 5G)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4800">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">4800</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nad473994116946b3a8d6c9810c1ab531">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N067e2bd8a84e46c6ab684a6122e431c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf43bcdccf2334f079745f86a73c45052">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <rdf:rest rdf:nodeID="N1a3862ca54a14f678bb412f27cfc20a3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G_Advanced">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <untitled-ontology-25:tipoRedMovil>5G Advanced</untitled-ontology-25:tipoRedMovil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Pantalla</rdfs:label>
+    <rdfs:label xml:lang="en">Screen</rdfs:label>
+    <rdfs:label xml:lang="pt">Tela</rdfs:label>
+    <rdfs:comment xml:lang="es">Componente visual que muestra la interfaz gráfica del dispositivo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Visual component that displays the graphical interface of the device</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Componente visual que exibe a interface gráfica do dispositivo</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naad1890d86514e4d8cb0d4415bb891aa">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <rdf:rest rdf:nodeID="Nf43bcdccf2334f079745f86a73c45052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N65ff0ba22b0d47b39463716cf1a4b512">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdf:rest rdf:nodeID="Naad1890d86514e4d8cb0d4415bb891aa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_256">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">8</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">false</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">256</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tipoRedInalambrica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  
+    <rdfs:label xml:lang="es">tipo de red inalámbrica</rdfs:label>
+    <rdfs:label xml:lang="en">wireless network type</rdfs:label>
+    <rdfs:label xml:lang="pt">tipo de rede sem fio</rdfs:label>
+  
+    <rdfs:comment xml:lang="es">Tecnología de conectividad inalámbrica (ej. WiFi 6, Bluetooth 5.3)</rdfs:comment>
+    <rdfs:comment xml:lang="en">Wireless connectivity technology (e.g. WiFi 6, Bluetooth 5.3)</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Tecnologia de conectividade sem fio (ex. WiFi 6, Bluetooth 5.3)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneRedInalambrica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene red inalámbrica</rdfs:label>
+    <rdfs:label xml:lang="en">has wireless network</rdfs:label>
+    <rdfs:label xml:lang="pt">tem rede sem fio</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su conectividad inalámbrica</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its wireless connectivity</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com sua conectividade sem fio</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N430e76f279404114af5792ce980ad8e3">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Camara"/>
+    <rdf:rest rdf:nodeID="N65ff0ba22b0d47b39463716cf1a4b512"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tienePantalla">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene pantalla</rdfs:label>
+    <rdfs:label xml:lang="en">has screen</rdfs:label>
+    <rdfs:label xml:lang="pt">tem tela</rdfs:label>
+    <rdfs:comment xml:lang="es">Relaciona el celular con su pantalla</rdfs:comment>
+    <rdfs:comment xml:lang="en">Relates the phone to its screen</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Relaciona o celular com sua tela</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Celular"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_6_128">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">6</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">true</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">128</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Res_IPX4">
+  <rdfs:label xml:lang="es">Resistente a salpicaduras de agua</rdfs:label>
+  <rdfs:label xml:lang="en">Water splash resistant</rdfs:label>
+  <rdfs:label xml:lang="pt">Resistente a respingos de água</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <untitled-ontology-25:certificacion>IPX4</untitled-ontology-25:certificacion>
+    <untitled-ontology-25:nombreResistencia>Resistente a salpicaduras de agua</untitled-ontology-25:nombreResistencia>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorProximidad">
+  <rdfs:label xml:lang="es">Proximidad</rdfs:label>
+  <rdfs:label xml:lang="en">Proximity</rdfs:label>
+  <rdfs:label xml:lang="pt">Proximidade</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+    <untitled-ontology-25:tipoSensor>Proximidad</untitled-ontology-25:tipoSensor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_12_512">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">12</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">false</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">512</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_--MP_DBpedia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+    <untitled-ontology-25:esCamaraFrontalDe rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_A05_DBpedia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorHuella">
+  <rdfs:label xml:lang="es">Huella dactilar / Huella en pantalla</rdfs:label>
+  <rdfs:label xml:lang="en">Fingerprint / In-display Fingerprint</rdfs:label>
+  <rdfs:label xml:lang="pt">Impressão digital / Leitor em tela</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+    <untitled-ontology-25:tipoSensor>Huella dactilar</untitled-ontology-25:tipoSensor>
+    <untitled-ontology-25:tipoSensor>Huella en pantalla</untitled-ontology-25:tipoSensor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#frecuenciaMaxima">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">frecuencia máxima</rdfs:label>
+    <rdfs:label xml:lang="en">maximum frequency</rdfs:label>
+    <rdfs:label xml:lang="pt">frequência máxima</rdfs:label>
+    <rdfs:comment xml:lang="es">Velocidad máxima del procesador en GHz</rdfs:comment>
+    <rdfs:comment xml:lang="en">Maximum processor speed in GHz</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Velocidade máxima do processador em GHz</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esSistemaOperativoDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es sistema operativo de</rdfs:label>
+    <rdfs:label xml:lang="en">is operating system of</rdfs:label>
+    <rdfs:label xml:lang="pt">é sistema operacional de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneSistemaOperativo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasOperatingSystem</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temSistemaOperacional</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneSistemaOperativo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_888">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">2.84</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Qualcomm</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Snapdragon 888</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_3700">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">3700</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_XX_XX_XX">
+  <rdfs:label xml:lang="es">Desconocido</rdfs:label>
+  <rdfs:label xml:lang="en">Unknown</rdfs:label>
+  <rdfs:label xml:lang="pt">Desconhecido</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <untitled-ontology-25:tipoPantalla>Desconocido</untitled-ontology-25:tipoPantalla>
+    <untitled-ontology-25:esPantallaDe rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_A05_DBpedia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#nombreResistencia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">nombre de resistencia</rdfs:label>
+    <rdfs:label xml:lang="en">resistance name</rdfs:label>
+    <rdfs:label xml:lang="pt">nome da resistência</rdfs:label>
+    <rdfs:comment xml:lang="es">Nombre del estándar de certificación de resistencia</rdfs:comment>
+    <rdfs:comment xml:lang="en">Name of the resistance certification standard</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Nome do padrão de certificação de resistência</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Resistencia"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Snapdragon_778G">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">2.4</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>Qualcomm</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Snapdragon 778G</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#NFC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+    <untitled-ontology-25:tipoRedInalambrica>NFC</untitled-ontology-25:tipoRedInalambrica>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#HarmonyOS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SistemaOperativo"/>
+    <untitled-ontology-25:nombreSO>HarmonyOS</untitled-ontology-25:nombreSO>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1a3862ca54a14f678bb412f27cfc20a3">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <rdf:rest rdf:nodeID="N67fc7814887042bdb87bfaadb2b360fe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_3G">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <untitled-ontology-25:tipoRedMovil>3G</untitled-ontology-25:tipoRedMovil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_4500">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">4500</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">false</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaRapida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria_5000">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Bateria"/>
+    <untitled-ontology-25:capacidad rdf:datatype="xsd:integer">5000</untitled-ontology-25:capacidad>
+    <untitled-ontology-25:cargaInalambrica rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaInalambrica>
+    <untitled-ontology-25:cargaRapida rdf:datatype="xsd:boolean">true</untitled-ontology-25:cargaRapida>
+    <untitled-ontology-25:esBateriaDe rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Samsung_Galaxy_A05_DBpedia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla_DynamicAMOLED_69_1440_120">
+  <rdfs:label xml:lang="es">Dynamic AMOLED</rdfs:label>
+  <rdfs:label xml:lang="en">Dynamic AMOLED</rdfs:label>
+  <rdfs:label xml:lang="pt">Dynamic AMOLED</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Pantalla"/>
+    <untitled-ontology-25:resolucionPantalla>1440x3088</untitled-ontology-25:resolucionPantalla>
+    <untitled-ontology-25:tamanoPantalla rdf:datatype="xsd:integer">69</untitled-ontology-25:tamanoPantalla>
+    <untitled-ontology-25:tasaRefresco rdf:datatype="xsd:integer">120</untitled-ontology-25:tasaRefresco>
+    <untitled-ontology-25:tipoPantalla>Dynamic AMOLED</untitled-ontology-25:tipoPantalla>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_12MP_iPhone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+    <untitled-ontology-25:resolucionFrontal rdf:datatype="xsd:integer">12</untitled-ontology-25:resolucionFrontal>
+  </rdf:Description>
+  <rdf:Description rdf:about="xsd:float">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#esBateriaDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es batería de</rdfs:label>
+    <rdfs:label xml:lang="en">is battery of</rdfs:label>
+    <rdfs:label xml:lang="pt">é bateria de</rdfs:label>
+    <rdfs:comment xml:lang="es">Inversa de tieneBateria</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inverse of hasBattery</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Inversa de temBateria</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#tieneBateria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Red Inalámbrica</rdfs:label>
+    <rdfs:label xml:lang="en">Wireless Network</rdfs:label>
+    <rdfs:label xml:lang="pt">Rede Sem Fio</rdfs:label>
+    <rdfs:comment xml:lang="es">Tecnologías de conectividad sin cables como WiFi y Bluetooth</rdfs:comment>
+    <rdfs:comment xml:lang="en">Wireless connectivity technologies such as WiFi and Bluetooth</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Tecnologias de conectividade sem fio como WiFi e Bluetooth</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamTrasera_50MP_Premium">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraTrasera"/>
+    <untitled-ontology-25:numeroCamaras rdf:datatype="xsd:integer">1</untitled-ontology-25:numeroCamaras>
+    <untitled-ontology-25:resolucionPrincipal rdf:datatype="xsd:integer">50</untitled-ontology-25:resolucionPrincipal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_8_128">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">8</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">false</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">128</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SistemaOperativo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Sistema Operativo</rdfs:label>
+    <rdfs:label xml:lang="en">Operating System</rdfs:label>
+    <rdfs:label xml:lang="pt">Sistema Operacional</rdfs:label>
+    <rdfs:comment xml:lang="es">Software base que gestiona los recursos del hardware y provee servicios a las aplicaciones</rdfs:comment>
+    <rdfs:comment xml:lang="en">Base software that manages hardware resources and provides services to applications</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Software base que gerencia os recursos de hardware e fornece serviços aos aplicativos</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#AudioStereo">
+  <rdfs:label xml:lang="es">Estéreo</rdfs:label>
+  <rdfs:label xml:lang="en">Stereo</rdfs:label>
+  <rdfs:label xml:lang="pt">Estéreo</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Audio"/>
+    <untitled-ontology-25:tipoSalida>Estéreo</untitled-ontology-25:tipoSalida>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_8MP_Economica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+    <untitled-ontology-25:resolucionFrontal rdf:datatype="xsd:integer">8</untitled-ontology-25:resolucionFrontal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorLuz">
+  <rdfs:label xml:lang="es">Luz ambiental</rdfs:label>
+  <rdfs:label xml:lang="en">Ambient light</rdfs:label>
+  <rdfs:label xml:lang="pt">Luz ambiente</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+    <untitled-ontology-25:tipoSensor>Luz ambiental</untitled-ontology-25:tipoSensor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria_16_1024">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Memoria"/>
+    <untitled-ontology-25:RAM rdf:datatype="xsd:integer">16</untitled-ontology-25:RAM>
+    <untitled-ontology-25:admiteMicroSD rdf:datatype="xsd:boolean">false</untitled-ontology-25:admiteMicroSD>
+    <untitled-ontology-25:almacenamientoInterno rdf:datatype="xsd:integer">1024</untitled-ontology-25:almacenamientoInterno>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_4G_Plus">
+  <rdfs:label xml:lang="es">4G+</rdfs:label>
+  <rdfs:label xml:lang="en">4G+</rdfs:label>
+  <rdfs:label xml:lang="pt">4G+</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <untitled-ontology-25:tipoRedMovil>4G+</untitled-ontology-25:tipoRedMovil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorGiroscopio">
+  <rdfs:label xml:lang="es">Giroscopio</rdfs:label>
+  <rdfs:label xml:lang="en">Gyroscope</rdfs:label>
+  <rdfs:label xml:lang="pt">Giroscópio</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+    <untitled-ontology-25:tipoSensor>Giroscopio</untitled-ontology-25:tipoSensor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Helio_G99">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Procesador"/>
+    <untitled-ontology-25:frecuenciaMaxima rdf:datatype="xsd:float">2.2</untitled-ontology-25:frecuenciaMaxima>
+    <untitled-ontology-25:marcaCPU>MediaTek</untitled-ontology-25:marcaCPU>
+    <untitled-ontology-25:modeloCPU>Helio G99</untitled-ontology-25:modeloCPU>
+    <untitled-ontology-25:numeroNucleos rdf:datatype="xsd:integer">8</untitled-ontology-25:numeroNucleos>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne064c5a0d0bb404ca1f5467c4bdc1670">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <rdf:rest rdf:nodeID="N73ba4414408843db8ebe0b46f9448df8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#iOS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SistemaOperativo"/>
+    <untitled-ontology-25:nombreSO>iOS</untitled-ontology-25:nombreSO>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SensorFacial">
+  <rdfs:label xml:lang="es">Reconocimiento facial</rdfs:label>
+  <rdfs:label xml:lang="en">Facial recognition</rdfs:label>
+  <rdfs:label xml:lang="pt">Reconhecimento facial</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+    <untitled-ontology-25:tipoSensor>Reconocimiento facial</untitled-ontology-25:tipoSensor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#SingleSIM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#TipoSIM"/>
+  
+    <rdfs:label xml:lang="es">SIM único</rdfs:label>
+    <rdfs:label xml:lang="en">Single SIM</rdfs:label>
+    <rdfs:label xml:lang="pt">SIM único</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Red_5G">
+  <rdfs:label xml:lang="es">5G</rdfs:label>
+  <rdfs:label xml:lang="en">5G</rdfs:label>
+  <rdfs:label xml:lang="pt">5G</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedMovil"/>
+    <untitled-ontology-25:tipoRedMovil>5G</untitled-ontology-25:tipoRedMovil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamFrontal_32MP_Premium">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#CamaraFrontal"/>
+    <untitled-ontology-25:resolucionFrontal rdf:datatype="xsd:integer">32</untitled-ontology-25:resolucionFrontal>
+  </rdf:Description>
+  <rdf:Description rdf:about="xsd:boolean">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6865722ae9494687af94d80a12164299">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#Sensor"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N67fc7814887042bdb87bfaadb2b360fe">
+    <rdf:first rdf:resource="http://www.semanticweb.org/nagha/ontologies/2026/3/untitled-ontology-25#RedInalambrica"/>
+    <rdf:rest rdf:nodeID="Ne064c5a0d0bb404ca1f5467c4bdc1670"/>
+  </rdf:Description>
+</rdf:RDF>

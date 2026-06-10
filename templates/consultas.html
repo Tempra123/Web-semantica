@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>80 Consultas SPARQL · Celulares</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/base.css">
+  <link rel="stylesheet" href="/static/css/consultas.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-tag">Web Semántica · OWL + RDF + SPARQL</div>
+  <h1>80 Consultas SPARQL<br><span>Ontología de Celulares</span></h1>
+  <p class="subtitle">Pruebas de conocimiento · Universidad · 2026</p>
+  <nav class="top-nav">
+    <a href="/" class="nav-link">🔍 Buscador</a>
+    <a href="/consultas-sparql" class="nav-link active">⚡ 80 Consultas SPARQL</a>
+  </nav>
+</header>
+
+<div class="consultas-layout">
+
+  <!-- Sidebar categorías -->
+  <aside class="cat-sidebar">
+    <h3>Categorías</h3>
+    <div id="catList">
+      <div style="padding:1rem;color:var(--muted);font-size:0.75rem;font-family:'Space Mono',monospace;">
+        <span class="dot-anim">Cargando</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Panel principal -->
+  <div class="consultas-main">
+
+    <div class="consultas-search">
+      <span class="si">🔎</span>
+      <input type="text" id="querySearch" placeholder="Buscar entre las 80 consultas...">
+    </div>
+
+    <!-- Resultado de consulta ejecutada -->
+    <div class="result-panel" id="resultPanel">
+      <div class="rp-header">
+        <h3 id="rpTitle">—</h3>
+        <p id="rpDesc">—</p>
+      </div>
+      <div id="rpBody"></div>
+      <div class="sparql-toggle">
+        <button onclick="toggleSparql()">{ } Ver SPARQL</button>
+        <pre class="sparql-code" id="sparqlCode"></pre>
+      </div>
+    </div>
+
+    <!-- Lista de queries -->
+    <div class="query-list" id="queryList">
+      <div style="text-align:center;padding:3rem;color:var(--muted);font-family:'Space Mono',monospace;font-size:0.8rem;">
+        <span class="dot-anim">Cargando consultas</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  80 Consultas SPARQL · Ontología OWL de Teléfonos Celulares · Web Semánticas 2026
+</footer>
+
+<script src="/static/js/consultas.js"></script>
+</body>
+</html>

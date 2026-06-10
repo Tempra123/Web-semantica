@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador Semántico · Celulares</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/base.css">
+  <link rel="stylesheet" href="/static/css/buscador.css">
+  <link rel="stylesheet" href="/static/css/consultas.css">
+</head>
+<body>
+
+<header>
+  <h1 id="headerTitle">Buscador Semántico<br><span>de Teléfonos Celulares</span></h1>
+  <nav class="top-nav">
+    <a href="#buscador"  class="nav-link" data-view="buscador">🔍 Buscador</a>
+    <a href="#consultas" class="nav-link" data-view="consultas">⚡ 80 Consultas SPARQL</a>
+    <a href="#multilang" class="nav-link" data-view="multilang">🗣 Ontología Multilingüe</a>
+    <div class="lang-switcher">
+      <button class="lang-btn" data-lang="es" title="Español">🇧🇴 ES</button>
+      <button class="lang-btn" data-lang="en" title="English">🇺🇸 EN</button>
+      <button class="lang-btn" data-lang="pt" title="Português">🇧🇷 PT</button>
+    </div>
+  </nav>
+</header>
+
+<!-- ═══════════════════════════ VISTA: BUSCADOR ═══════════════════════════ -->
+<div id="view-buscador" class="spa-view">
+
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-num">{{ stats.get('total_celulares', '?') }}</div>
+      <div class="stat-label">Celulares</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">{{ stats.get('total_clases', '?') }}</div>
+      <div class="stat-label">Clases OWL</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">{{ stats.get('total_tripletas', '?') }}</div>
+      <div class="stat-label">Tripletas RDF</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">80</div>
+      <div class="stat-label">Consultas SPARQL</div>
+    </div>
+  </div>
+
+  <main class="search-area">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput"
+        placeholder='Ej: "celulares baratos", "Android gama alta", "Samsung 5G"...'
+        autocomplete="off">
+      <button class="btn-buscar" id="btnBuscar">Buscar</button>
+    </div>
+
+    <div class="sugerencias" id="sugBuscador">
+      <!-- Los chips se generan dinámicamente desde app.js según el idioma -->
+    </div>
+
+    <div id="semanticBadges" class="semantic-badges" style="display:none"></div>
+
+    <div class="results-header">
+      <span class="results-count" id="resultsCount"></span>
+    </div>
+
+    <div class="grid" id="grid">
+      <div class="empty" id="emptyInit">
+        <div class="empty-icon">🔍</div>
+        <h3>Ingresá un término y presioná Buscar</h3>
+        <p>O usá una de las sugerencias </p>
+      </div>
+    </div>
+  </main>
+
+</div><!-- /view-buscador -->
+
+<!-- Modal detalle -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal modal-detalle">
+    <button class="modal-close" id="modalClose">✕</button>
+    <h2 id="modalTitle">Detalle del dispositivo</h2>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════ VISTA: CONSULTAS ═══════════════════════════ -->
+<div id="view-consultas" class="spa-view" style="display:none">
+
+  <div class="consultas-layout">
+    <aside class="cat-sidebar">
+      <h3>Categorías</h3>
+      <div id="catList">
+        <div style="padding:1rem;color:var(--muted);font-size:0.75rem;font-family:'Space Mono',monospace;">
+          <span class="dot-anim">Cargando</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="consultas-main">
+      <div class="consultas-search">
+        <span class="si">🔎</span>
+        <input type="text" id="querySearch" placeholder="Buscar entre las 80 consultas...">
+      </div>
+
+      <div class="result-panel" id="resultPanel">
+        <div class="rp-header">
+          <h3 id="rpTitle">—</h3>
+          <p id="rpDesc">—</p>
+        </div>
+        <div id="rpBody"></div>
+        <div class="sparql-toggle">
+          <button id="sparqlToggleBtn" onclick="toggleSparql()">{ } Ver SPARQL</button>
+          <pre class="sparql-code" id="sparqlCode"></pre>
+        </div>
+      </div>
+
+      <div class="query-list" id="queryList">
+        <div style="text-align:center;padding:3rem;color:var(--muted);font-family:'Space Mono',monospace;font-size:0.8rem;">
+          <span class="dot-anim">Cargando consultas</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /view-consultas -->
+
+
+<!-- ══════════════════════════ VISTA: DBPEDIA ═════════════════════════════ -->
+<div id="view-dbpedia" class="spa-view" style="display:none" hidden>
+
+  <div class="dbp-header-bar">
+    <div class="dbp-badge">
+      <span class="dbp-dot"></span>
+      Conectado a DBpedia SPARQL Endpoint
+    </div>
+  </div>
+
+  <main class="search-area">
+    <div class="search-box">
+      <span class="search-icon">🌐</span>
+      <input type="text" id="dbpSearchInput"
+        placeholder='Ej: "iPhone", "Samsung Galaxy", "Xiaomi"...'
+        autocomplete="off">
+      <button class="btn-buscar" id="dbpBtnBuscar">Buscar en DBpedia</button>
+    </div>
+
+    <div class="sugerencias">
+      <span class="sug-label">Prueba:</span>
+      <button class="sug-chip" onclick="dbpBuscarTermino('iPhone')">iPhone</button>
+      <button class="sug-chip" onclick="dbpBuscarTermino('Samsung Galaxy')">Samsung Galaxy</button>
+      <button class="sug-chip" onclick="dbpBuscarTermino('Xiaomi')">Xiaomi</button>
+      <button class="sug-chip" onclick="dbpBuscarTermino('Motorola')">Motorola</button>
+      <button class="sug-chip" onclick="dbpBuscarTermino('OnePlus')">OnePlus</button>
+      <button class="sug-chip" onclick="dbpBuscarTermino('Pixel')">Google Pixel</button>
+    </div>
+
+    <div class="results-header">
+      <span class="results-count" id="dbpResultsCount"></span>
+    </div>
+
+    <!-- Notificación de éxito/error al agregar -->
+    <div id="dbpNotif" class="dbp-notif" style="display:none"></div>
+
+    <div class="grid" id="dbpGrid">
+      <div class="empty">
+        <div class="empty-icon">🌐</div>
+        <h3>Buscá celulares en DBpedia</h3>
+        <p>Los resultados vienen directamente del endpoint SPARQL de DBpedia</p>
+      </div>
+    </div>
+  </main>
+
+</div><!-- /view-dbpedia -->
+
+
+<!-- ══════════════════════════ VISTA: MULTILINGÜE ══════════════════════════ -->
+<div id="view-multilang" class="spa-view" style="display:none">
+
+  <div class="ml-hero">
+    <div class="ml-badge">
+      <span class="ml-icon">🗣</span>
+      Representación Semántica Multilingüe · <code>rdfs:label</code> con <code>@lang</code>
+    </div>
+  </div>
+
+  <!-- Selector de idioma semántico -->
+  <div class="ml-lang-bar">
+    <span class="ml-lang-label" id="mlLangLabel">Consultar ontología en:</span>
+    <button class="ml-lang-btn active" data-mlang="es" onclick="mlCargar('es')">🇧🇴 Español</button>
+    <button class="ml-lang-btn" data-mlang="en"  onclick="mlCargar('en')">🇺🇸 English</button>
+    <button class="ml-lang-btn" data-mlang="pt"  onclick="mlCargar('pt')">🇧🇷 Português</button>
+  </div>
+
+  <!-- Loading -->
+  <div id="mlLoader" class="loader-inline" style="display:none">
+    <span class="dot-anim">Consultando ontología</span>
+  </div>
+
+  <!-- Contenido principal -->
+  <div id="mlContent" style="display:none">
+
+    <!-- Stats -->
+    <div class="ml-stats-row">
+      <div class="ml-stat"><span id="mlTotalClases">0</span><small id="mlStatClases">Clases</small></div>
+      <div class="ml-stat"><span id="mlTotalObj">0</span><small id="mlStatObj">Prop. Objeto</small></div>
+      <div class="ml-stat"><span id="mlTotalDato">0</span><small id="mlStatDato">Prop. Dato</small></div>
+      <div class="ml-stat"><span id="mlTotalIndiv">0</span><small id="mlStatIndiv">Individuos</small></div>
+    </div>
+
+
+    <!-- Clases OWL -->
+    <div class="ml-section" id="mlSecClases">
+      <h3 class="ml-section-title" id="mlTitleClases">📦 Clases OWL</h3>
+      <div id="mlClases" class="ml-grid"></div>
+      <div class="sparql-toggle">
+        <button onclick="toggleMlSparql('sparqlClases')">{ } Ver SPARQL</button>
+        <pre class="sparql-code" id="sparqlClases"></pre>
+      </div>
+    </div>
+
+    <!-- Propiedades de Objeto agrupadas por dominio -->
+    <div class="ml-section" id="mlSecPropsObj">
+      <h3 class="ml-section-title" id="mlTitlePropsObj">🔗 Propiedades de Objeto</h3>
+      <div id="mlPropsObj"></div>
+      <div class="sparql-toggle">
+        <button onclick="toggleMlSparql('sparqlPropsObj')">{ } Ver SPARQL</button>
+        <pre class="sparql-code" id="sparqlPropsObj"></pre>
+      </div>
+    </div>
+
+    <!-- Propiedades de Dato agrupadas por dominio -->
+    <div class="ml-section" id="mlSecPropsDato">
+      <h3 class="ml-section-title" id="mlTitlePropsDato">🏷 Propiedades de Dato</h3>
+      <div id="mlPropsDato"></div>
+      <div class="sparql-toggle">
+        <button onclick="toggleMlSparql('sparqlPropsDato')">{ } Ver SPARQL</button>
+        <pre class="sparql-code" id="sparqlPropsDato"></pre>
+      </div>
+    </div>
+
+    <!-- Individuos con traducciones -->
+    <div class="ml-section" id="mlSecIndividuos">
+      <h3 class="ml-section-title" id="mlTitleIndividuos">🧩 Individuos</h3>
+      <div id="mlIndividuos"></div>
+      <div class="sparql-toggle">
+        <button onclick="toggleMlSparql('sparqlIndividuos')">{ } Ver SPARQL</button>
+        <pre class="sparql-code" id="sparqlIndividuos"></pre>
+      </div>
+    </div>
+
+  </div>
+
+</div><!-- /view-multilang -->
+
+<footer id="mainFooter">
+  Buscador Semántico · Ontología de Teléfonos Celulares · Web Semánticas 2026
+</footer>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

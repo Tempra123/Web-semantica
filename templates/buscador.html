@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador Semántico · Celulares</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/base.css">
+  <link rel="stylesheet" href="/static/css/buscador.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-tag">Web Semántica · OWL + RDF + SPARQL</div>
+  <h1>Buscador Semántico<br><span>de Teléfonos Celulares</span></h1>
+  <p class="subtitle">Ontología OWL · Universidad · 2026</p>
+  <nav class="top-nav">
+    <a href="/" class="nav-link active">🔍 Buscador</a>
+    <a href="/consultas-sparql" class="nav-link">⚡ 80 Consultas SPARQL</a>
+  </nav>
+</header>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat">
+    <div class="stat-num">{{ stats.get('total_celulares', '?') }}</div>
+    <div class="stat-label">Celulares</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">{{ stats.get('total_clases', '?') }}</div>
+    <div class="stat-label">Clases OWL</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">{{ stats.get('total_tripletas', '?') }}</div>
+    <div class="stat-label">Tripletas RDF</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">80</div>
+    <div class="stat-label">Consultas SPARQL</div>
+  </div>
+</div>
+
+<!-- BUSCADOR -->
+<main class="search-area">
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder='Ej: "celulares baratos", "Android gama alta", "Samsung 8GB RAM"...'
+      autocomplete="off"
+    >
+    <button class="btn-buscar" onclick="buscar()">Buscar</button>
+  </div>
+
+  <!-- Chips de sugerencias de búsqueda semántica -->
+  <div class="sugerencias">
+    <span class="sug-label">Prueba:</span>
+    <button class="sug-chip" onclick="buscarTermino('celulares baratos')">celulares baratos</button>
+    <button class="sug-chip" onclick="buscarTermino('gama alta')">gama alta</button>
+    <button class="sug-chip" onclick="buscarTermino('Android')">Android</button>
+    <button class="sug-chip" onclick="buscarTermino('iPhone iOS')">iPhone iOS</button>
+    <button class="sug-chip" onclick="buscarTermino('8GB RAM')">8GB RAM</button>
+    <button class="sug-chip" onclick="buscarTermino('precio bajo Samsung')">Samsung baratos</button>
+  </div>
+
+  <div class="filtros">
+    <button class="filtro-btn active" data-filtro="todos">Todos</button>
+    <button class="filtro-btn" data-filtro="alta">🔥 Gama Alta</button>
+    <button class="filtro-btn" data-filtro="media">⚡ Gama Media</button>
+    <button class="filtro-btn" data-filtro="baja">💰 Gama Baja</button>
+  </div>
+
+  <!-- Badge que muestra qué filtros semánticos se detectaron -->
+  <div id="semanticBadges" class="semantic-badges" style="display:none"></div>
+
+  <div class="results-header">
+    <span class="results-count" id="resultsCount"></span>
+  </div>
+
+  <div class="grid" id="grid">
+    <div class="loader" id="loader">
+      <span class="dot-anim">Consultando ontología</span>
+    </div>
+  </div>
+</main>
+
+<!-- Modal detalle -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <h2 id="modalTitle">Detalle del dispositivo</h2>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<footer>
+  Buscador Semántico · Ontología OWL de Teléfonos Celulares · Web Semánticas 2026
+</footer>
+
+<script src="/static/js/buscador.js"></script>
+</body>
+</html>
